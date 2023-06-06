@@ -19,7 +19,7 @@ class TextFieldContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8),
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
       width: width,
       decoration: BoxDecoration(
         color: constantValues.whiteColor,

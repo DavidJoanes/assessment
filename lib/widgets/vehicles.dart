@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_typing_uninitialized_variables, must_be_immutable
 
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -75,7 +76,7 @@ class _VehiclesState extends State<Vehicles> {
                         ),
                       ),
                     );
-                  }),
+                  }).animate().slideX(curve: Curves.linear),
             )));
   }
 }
