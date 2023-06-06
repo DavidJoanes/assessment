@@ -124,7 +124,7 @@ class CustomSearchDelegate extends SearchDelegate {
         final suggestion = suggestions[index];
 
         return Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20),
+          padding: const EdgeInsets.symmetric(horizontal: 10),
           child: ListTile(
             leading: CircleAvatar(
                 radius: 20,
