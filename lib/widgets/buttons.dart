@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import '../controller/controller.dart';
+import '../controllers/controller.dart';
 
 final constantValues = Get.find<Constants>();
 

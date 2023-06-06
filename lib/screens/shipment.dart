@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../controller/controller.dart';
+import '../controllers/controller.dart';
 
 class Shipment extends StatefulWidget {
   const Shipment({super.key});

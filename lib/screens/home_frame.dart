@@ -2,7 +2,7 @@ import 'package:fancy_bar/fancy_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../controller/controller.dart';
+import '../controllers/controller.dart';
 import 'calculate.dart';
 import 'home.dart';
 import 'profile.dart';
