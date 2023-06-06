@@ -132,7 +132,7 @@ class CustomSearchDelegate extends SearchDelegate {
                 child: Icon(Icons.card_giftcard_rounded,
                     color: constantValues.whiteColor)),
             title: Text(suggestion[0], style: fontStyle),
-            subtitle: Row(
+            subtitle: OverflowBar(
               children: [
                 Text(suggestion[1], style: fontStyle),
                 const SizedBox(width: 5),
